@@ -1,0 +1,42 @@
+package colors
+
+const (
+	Red       = "#E06C75"
+	Yellow    = "#e5c07b"
+	Blue      = "#61afef"
+	Green     = "#98c379"
+	Magenta   = "#c678dd"
+	Cyan      = "#56b6c2"
+	White     = "#abb2bf"
+	Black     = "#282c34"
+	Tangerine = "#ff9e64"
+	Orange    = "#d19a66"
+
+	Peach    = "#e1717a"
+	Lime     = "#b3d39c"
+	Lemon    = "#edd4a6"
+	Sky      = "#8fc6f4"
+	Fuchsia  = "#d7a1e7"
+	Aqua     = "#7bc6d0"
+	Ivory    = "#c8cdd5"
+	Charcoal = "#5c6370"
+
+	Coral    = "#d8868d"
+	Emerald  = "#a3c38c"
+	Sunshine = "#dcc496"
+	Sapphire = "#7fb6e4"
+	Lavender = "#c791d7"
+	Mint     = "#6bb6c0"
+	Pearl    = "#b8bdd5"
+	Obsidian = "#4c5360"
+
+	Maroon  = "#d35c65"
+	Forest  = "#88b369"
+	Mustard = "#d4b06b"
+	Navy    = "#519fdf"
+	Plum    = "#b568cd"
+	Teal    = "#46a6b2"
+	Gray    = "#9ba2af"
+	Onyx    = "#182224"
+	Grape   = "#CC9561"
+)
