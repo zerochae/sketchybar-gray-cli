@@ -4,7 +4,10 @@ CLI tool for managing sketchybar configuration.
 
 ## Features
 
+- ✅ Interactive TUI mode
 - ✅ Simple bash config management
+- ✅ Theme management (10 themes available)
+- ✅ Sketchybar item control (show/hide/toggle)
 - ✅ camelCase or SCREAMING_SNAKE_CASE support
 - ✅ Works with or without gsbar installed
 
@@ -17,6 +20,15 @@ make install
 ```
 
 ## Usage
+
+### Interactive TUI Mode
+
+```bash
+gsbar        # Launch TUI mode (default)
+gsbar tui    # Same as above
+```
+
+### Configuration Management
 
 ```bash
 # Initialize config
@@ -32,7 +44,39 @@ gsbar set SBAR_ICON_FONT_SIZE "20.0"
 
 # List all
 gsbar list
+```
 
+### Theme Management
+
+```bash
+# Show current theme and available themes
+gsbar theme
+
+# Set theme
+gsbar theme nord
+gsbar theme tokyonight
+```
+
+**Available Themes:**
+- Dark: nord, tokyonight, ayudark, githubdark, onedark
+- Light: onelight, ayulight, gruvboxlight, blossomlight, githublight
+
+### Sketchybar Item Control
+
+```bash
+# Show item
+gsbar show config
+
+# Hide item
+gsbar hide config
+
+# Toggle item
+gsbar toggle config
+```
+
+### Reload
+
+```bash
 # Reload sketchybar
 gsbar reload
 ```
