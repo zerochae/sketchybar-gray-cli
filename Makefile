@@ -18,9 +18,11 @@ clean:
 	@echo "Clean complete"
 
 install: build
-	@echo "Installing $(BINARY_NAME)..."
-	@go install
-	@echo "Install complete"
+	@echo "Installing $(BINARY_NAME) to ~/.local/bin..."
+	@mkdir -p ~/.local/bin
+	@cp $(BUILD_DIR)/$(BINARY_NAME) ~/.local/bin/$(BINARY_NAME)
+	@chmod +x ~/.local/bin/$(BINARY_NAME)
+	@echo "Install complete: ~/.local/bin/$(BINARY_NAME)"
 
 release:
 	@echo "Building release binary..."
